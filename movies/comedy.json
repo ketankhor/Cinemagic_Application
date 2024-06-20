@@ -1,0 +1,611 @@
+[
+    {
+        "id": 1,
+        "title": "Lady Bird",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BODhkZGE0NDQtZDc0Zi00YmQ4LWJiNmUtYTY1OGM1ODRmNGVkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "imdbId": "tt4925292",
+        "category": "comedy"
+    },
+    {
+        "id": 2,
+        "title": "BlacKkKlansman",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjUyOTE1NjI0OF5BMl5BanBnXkFtZTgwMTM4ODQ5NTM@._V1_SX300.jpg",
+        "imdbId": "tt7349662",
+        "category": "comedy"
+    },
+    {
+        "id": 3,
+        "title": "It Happened One Night",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZmViYmM5OTYtNGQ4Ny00YjQyLThiNjEtYTE4MGZhZTNmZjcyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "imdbId": "tt0025316",
+        "category": "comedy"
+    },
+    {
+        "id": 4,
+        "title": "Eighth Grade",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMzVlYzgxYjAtYzhhZi00MDc1LTlkZDMtMTRhZWI0MTg5YTRjXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+        "imdbId": "tt7014006",
+        "category": "comedy"
+    },
+    {
+        "id": 5,
+        "title": "Coco",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_SX300.jpg",
+        "imdbId": "tt2380307",
+        "category": "comedy"
+    },
+    {
+        "id": 6,
+        "title": "The Big Sick",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZWM4YzZjOTEtZmU5ZS00ZTRkLWFiNjAtZTEwNzIzMDM5MjdmXkEyXkFqcGdeQXVyNDg2MjUxNjM@._V1_SX300.jpg",
+        "imdbId": "tt5462602",
+        "category": "comedy"
+    },
+    {
+        "id": 7,
+        "title": "Modern Times",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "imdbId": "tt0027977",
+        "category": "comedy"
+    },
+    {
+        "id": 8,
+        "title": "Singin' in the Rain",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMWUyNjQ5MTAtNDJhYS00MWQ0LTk2ZTAtZmE4MWNlMjMwMzg3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+        "imdbId": "tt0045152",
+        "category": "comedy"
+    },
+    {
+        "id": 9,
+        "title": "A Hard Day's Night",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZjQyMGUwNzAtNTc2MC00Y2FjLThlM2ItZGRjNzM0OWVmZGYyXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+        "imdbId": "tt0058182",
+        "category": "comedy"
+    },
+    {
+        "id": 10,
+        "title": "La La Land",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_SX300.jpg",
+        "imdbId": "tt3783958",
+        "category": "comedy"
+    },
+    {
+        "id": 11,
+        "title": "Zootopia",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_SX300.jpg",
+        "imdbId": "tt2948356",
+        "category": "comedy"
+    },
+    {
+        "id": 12,
+        "title": "The Philadelphia Story",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYjQ4ZDA4NGMtMTkwYi00NThiLThhZDUtZTEzNTAxOWYyY2E4XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SX300.jpg",
+        "imdbId": "tt0032904",
+        "category": "comedy"
+    },
+    {
+        "id": 13,
+        "title": "Toy Story 2",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMWM5ZDcxMTYtNTEyNS00MDRkLWI3YTItNThmMGExMWY4NDIwXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+        "imdbId": "tt0120363",
+        "category": "comedy"
+    },
+    {
+        "id": 14,
+        "title": "Up",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg",
+        "imdbId": "tt1049413",
+        "category": "comedy"
+    },
+    {
+        "id": 15,
+        "title": "Toy Story 3",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_SX300.jpg",
+        "imdbId": "tt0435761",
+        "category": "comedy"
+    },
+    {
+        "id": 16,
+        "title": "Finding Nemo",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZTAzNWZlNmUtZDEzYi00ZjA5LWIwYjEtZGM1NWE1MjE4YWRhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "imdbId": "tt0266543",
+        "category": "comedy"
+    },
+    {
+        "id": 17,
+        "title": "Three Billboards Outside Ebbing, Missouri",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjMxNzgwMDUyMl5BMl5BanBnXkFtZTgwMTQ0NTIyNDM@._V1_SX300.jpg",
+        "imdbId": "tt5027774",
+        "category": "comedy"
+    },
+    {
+        "id": 18,
+        "title": "Kind Hearts and Coronets",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNjI5N2Y4YWEtYThmOC00ODA0LTlhMGYtNmE3MmVmNjNhYWQyXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX300.jpg",
+        "imdbId": "tt0041546",
+        "category": "comedy"
+    },
+    {
+        "id": 19,
+        "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdbId": "tt0057012",
+        "category": "comedy"
+    },
+    {
+        "id": 20,
+        "title": "The Death of Stalin: Dictators, Murderers and Comrades... Oh My!",
+        "posterURL": "N/A",
+        "imdbId": "tt9019280",
+        "category": "comedy"
+    },
+    {
+        "id": 21,
+        "title": "Ant-Man and the Wasp",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYjcyYTk0N2YtMzc4ZC00Y2E0LWFkNDgtNjE1MzZmMGE1YjY1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "imdbId": "tt5095030",
+        "category": "comedy"
+    },
+    {
+        "id": 22,
+        "title": "Roman Holiday",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTE2MDM4MTMtZmNkZC00Y2QyLWE0YjUtMTAxZGJmODMxMDM0XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+        "imdbId": "tt0046250",
+        "category": "comedy"
+    },
+    {
+        "id": 23,
+        "title": "Toy Story",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgtYmNmZTEwZTViZWJkXkEyXkFqcGdeQXVyNDQ2OTk4MzI@._V1_SX300.jpg",
+        "imdbId": "tt0114709",
+        "category": "comedy"
+    },
+    {
+        "id": 24,
+        "title": "Crazy Rich Asians",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_SX300.jpg",
+        "imdbId": "tt3104988",
+        "category": "comedy"
+    },
+    {
+        "id": 25,
+        "title": "Paterson",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTUzODA4Nzk0OF5BMl5BanBnXkFtZTgwNzE1MDIwMDI@._V1_SX300.jpg",
+        "imdbId": "tt5247022",
+        "category": "comedy"
+    },
+    {
+        "id": 26,
+        "title": "Sorry to Bother You",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNjgwMmI4YzUtZGI2Mi00M2MwLWIyMmMtZWYzMWZmNzAyNmYwXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "imdbId": "tt5688932",
+        "category": "comedy"
+    },
+    {
+        "id": 27,
+        "title": "The Gold Rush",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZjEyOTE4MzMtNmMzMy00Mzc3LWJlOTQtOGJiNDE0ZmJiOTU4L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "imdbId": "tt0015864",
+        "category": "comedy"
+    },
+    {
+        "id": 28,
+        "title": "Monty Python and the Holy Grail",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BN2IyNTE4YzUtZWU0Mi00MGIwLTgyMmQtMzQ4YzQxYWNlYWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "imdbId": "tt0071853",
+        "category": "comedy"
+    },
+    {
+        "id": 29,
+        "title": "The Disaster Artist",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BOGNkMzliMGMtMDI5Ni00OTZkLTgyMTYtNzk5ZTY1NjVhYjVmXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_SX300.jpg",
+        "imdbId": "tt3521126",
+        "category": "comedy"
+    },
+    {
+        "id": 30,
+        "title": "Shaun the Sheep Movie",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BOTc1ODY5MTQ1Nl5BMl5BanBnXkFtZTgwMDM5ODI1NjE@._V1_SX300.jpg",
+        "imdbId": "tt2872750",
+        "category": "comedy"
+    },
+    {
+        "id": 31,
+        "title": "La Dolce Vita",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYmFjNmM3ZjctMWNhNS00ZDMwLWEwNTUtZGJhN2Y4NWQyMzA4XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdbId": "tt0053779",
+        "category": "comedy"
+    },
+    {
+        "id": 32,
+        "title": "Isle of Dogs",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTYyOTUwNjAxM15BMl5BanBnXkFtZTgwODcyMzE0NDM@._V1_SX300.jpg",
+        "imdbId": "tt5104604",
+        "category": "comedy"
+    },
+    {
+        "id": 33,
+        "title": "The Artist",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMDUyZWU5N2UtOWFlMy00MTI0LTk0ZDYtMzFhNjljODBhZDA5XkEyXkFqcGdeQXVyNzA4ODc3ODU@._V1_SX300.jpg",
+        "imdbId": "tt1655442",
+        "category": "comedy"
+    },
+    {
+        "id": 34,
+        "title": "City Lights",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdbId": "tt0021749",
+        "category": "comedy"
+    },
+    {
+        "id": 35,
+        "title": "The Nice Guys",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjcwNDA5MDYyNl5BMl5BanBnXkFtZTgwNjg0NDkzNzE@._V1_SX300.jpg",
+        "imdbId": "tt3799694",
+        "category": "comedy"
+    },
+    {
+        "id": 36,
+        "title": "Mary Poppins",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNmJkODczNjItNDI5Yy00MGI1LTkyOWItZDNmNjM4ZGI1ZDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_SX300.jpg",
+        "imdbId": "tt0058331",
+        "category": "comedy"
+    },
+    {
+        "id": 37,
+        "title": "Love & Friendship",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTQ3NTQ2NjMwMV5BMl5BanBnXkFtZTgwOTk3Njk0ODE@._V1_SX300.jpg",
+        "imdbId": "tt3068194",
+        "category": "comedy"
+    },
+    {
+        "id": 38,
+        "title": "Birdman",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMzBkMmViNTUtNTYzNi00ZjY3LWE2NWEtYjRhOWI5ODI1MjhiXkEyXkFqcGdeQXVyOTUyMjQyODE@._V1_SX300.jpg",
+        "imdbId": "tt5130912",
+        "category": "comedy"
+    },
+    {
+        "id": 39,
+        "title": "To Be or Not to Be",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYTIwNDcyMjktMTczMy00NDM5LTlhNDEtMmE3NGVjOTM2YjQ3XkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_SX300.jpg",
+        "imdbId": "tt0035446",
+        "category": "comedy"
+    },
+    {
+        "id": 40,
+        "title": "The Lego Movie",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_SX300.jpg",
+        "imdbId": "tt1490017",
+        "category": "comedy"
+    },
+    {
+        "id": 41,
+        "title": "His Girl Friday",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZDVmZTZkYjMtNmViZC00ODEzLTgwNDAtNmQ3OGQwOWY5YjFmXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_SX300.jpg",
+        "imdbId": "tt0032599",
+        "category": "comedy"
+    },
+    {
+        "id": 42,
+        "title": "Ratatouille",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_SX300.jpg",
+        "imdbId": "tt0382932",
+        "category": "comedy"
+    },
+    {
+        "id": 43,
+        "title": "Spy",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNjI5OTQ0MDQxM15BMl5BanBnXkFtZTgwMzcwNjMyNTE@._V1_SX300.jpg",
+        "imdbId": "tt3079380",
+        "category": "comedy"
+    },
+    {
+        "id": 44,
+        "title": "Annie Hall",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZDg1OGQ4YzgtM2Y2NS00NjA3LWFjYTctMDRlMDI3NWE1OTUyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "imdbId": "tt0075686",
+        "category": "comedy"
+    },
+    {
+        "id": 45,
+        "title": "Some Like It Hot",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNzAyOGIxYjAtMGY2NC00ZTgyLWIwMWEtYzY0OWQ4NDFjOTc5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "imdbId": "tt0053291",
+        "category": "comedy"
+    },
+    {
+        "id": 46,
+        "title": "Gentlemen Prefer Blondes",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNTRhZDViOTYtOGY5OC00ODk4LWJkZWYtYjFkZWZkMzVmNjY2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "imdbId": "tt0045810",
+        "category": "comedy"
+    },
+    {
+        "id": 47,
+        "title": "The Incredibles",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg",
+        "imdbId": "tt0317705",
+        "category": "comedy"
+    },
+    {
+        "id": 48,
+        "title": "Tampopo",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BOTE5ZWY2MGEtYjA5ZS00YjdkLTk1MmMtNGFhMDRlNTkzNTRiXkEyXkFqcGdeQXVyMTIyNzY1NzM@._V1_SX300.jpg",
+        "imdbId": "tt0092048",
+        "category": "comedy"
+    },
+    {
+        "id": 49,
+        "title": "Sideways",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTU0Mjg3MzkxOV5BMl5BanBnXkFtZTYwNDU1OTY3._V1_SX300.jpg",
+        "imdbId": "tt0375063",
+        "category": "comedy"
+    },
+    {
+        "id": 50,
+        "title": "Yellow Submarine",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMGExODFmMjQtZTgxOC00ZDE0LWJmM2MtOTQzM2YzNDZlMzNmL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+        "imdbId": "tt0063823",
+        "category": "comedy"
+    },
+    {
+        "id": 51,
+        "title": "Logan Lucky",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTYyODg0NDU1OV5BMl5BanBnXkFtZTgwNjcxMzU0MjI@._V1_SX300.jpg",
+        "imdbId": "tt5439796",
+        "category": "comedy"
+    },
+    {
+        "id": 52,
+        "title": "Chicken Run",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BY2UyYjFkNzAtYzIyMC00MGI1LTlkNDktNzUyOGQ5NTI2ZGFjXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
+        "imdbId": "tt0120630",
+        "category": "comedy"
+    },
+    {
+        "id": 53,
+        "title": "Hunt for the Wilderpeople",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjI1MDQ2MDg5Ml5BMl5BanBnXkFtZTgwMjc2NjM5ODE@._V1_SX300.jpg",
+        "imdbId": "tt4698684",
+        "category": "comedy"
+    },
+    {
+        "id": 54,
+        "title": "The Lego Batman Movie",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_SX300.jpg",
+        "imdbId": "tt4116284",
+        "category": "comedy"
+    },
+    {
+        "id": 55,
+        "title": "Airplane!",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZjA3YjdhMWEtYjc2Ni00YzVlLWI0MTUtMGZmNTJjNmU0Yzk2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "imdbId": "tt0080339",
+        "category": "comedy"
+    },
+    {
+        "id": 56,
+        "title": "The Grand Budapest Hotel",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg",
+        "imdbId": "tt2278388",
+        "category": "comedy"
+    },
+    {
+        "id": 57,
+        "title": "Don't Think Twice",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTkxMTkwODM2MF5BMl5BanBnXkFtZTgwNjYwNjY5ODE@._V1_SX300.jpg",
+        "imdbId": "tt4972062",
+        "category": "comedy"
+    },
+    {
+        "id": 58,
+        "title": "Big",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMDQ1ODM5MTMtMjAwYi00ZGUxLTliNTMtN2ZhODAwMjVhMTRlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "imdbId": "tt0094737",
+        "category": "comedy"
+    },
+    {
+        "id": 59,
+        "title": "The Player",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjM5MDg0MjU3Ml5BMl5BanBnXkFtZTgwODQ0NjYxMTE@._V1_SX300.jpg",
+        "imdbId": "tt0105151",
+        "category": "comedy"
+    },
+    {
+        "id": 60,
+        "title": "Monsters, Inc.",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_SX300.jpg",
+        "imdbId": "tt0198781",
+        "category": "comedy"
+    },
+    {
+        "id": 61,
+        "title": "The Apartment",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNzkwODFjNzItMmMwNi00MTU5LWE2MzktM2M4ZDczZGM1MmViXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_SX300.jpg",
+        "imdbId": "tt0053604",
+        "category": "comedy"
+    },
+    {
+        "id": 62,
+        "title": "Groundhog Day",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "imdbId": "tt0107048",
+        "category": "comedy"
+    },
+    {
+        "id": 63,
+        "title": "Back to the Future",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "imdbId": "tt0088763",
+        "category": "comedy"
+    },
+    {
+        "id": 64,
+        "title": "Duck Soup",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BYmYxZGU2NWYtNzQxZS00NmEyLWIzN2YtMDk5MWM0ODc5ZTE4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+        "imdbId": "tt0023969",
+        "category": "comedy"
+    },
+    {
+        "id": 65,
+        "title": "Anomalisa",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTkyMzI2MzQ1N15BMl5BanBnXkFtZTgwNDg0MzQxNzE@._V1_SX300.jpg",
+        "imdbId": "tt2401878",
+        "category": "comedy"
+    },
+    {
+        "id": 66,
+        "title": "Moonrise Kingdom",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_SX300.jpg",
+        "imdbId": "tt1748122",
+        "category": "comedy"
+    },
+    {
+        "id": 67,
+        "title": "Bull Durham",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMzMxMDEzMWUtZDk3NS00MWRiLWJjOGMtN2Q0ZjVhZjU3ODhkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "imdbId": "tt0094812",
+        "category": "comedy"
+    },
+    {
+        "id": 68,
+        "title": "Enough Said",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjI2MjIwMDk2Ml5BMl5BanBnXkFtZTcwNTQ1MzQ5OQ@@._V1_SX300.jpg",
+        "imdbId": "tt2390361",
+        "category": "comedy"
+    },
+    {
+        "id": 69,
+        "title": "Who Framed Roger Rabbit",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMDhiOTM2OTctODk3Ny00NWI4LThhZDgtNGQ4NjRiYjFkZGQzXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg",
+        "imdbId": "tt0096438",
+        "category": "comedy"
+    },
+    {
+        "id": 70,
+        "title": "The Muppets",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjE0MTM4NTc3NF5BMl5BanBnXkFtZTcwMjYzOTIxNg@@._V1_SX300.jpg",
+        "imdbId": "tt1204342",
+        "category": "comedy"
+    },
+    {
+        "id": 71,
+        "title": "Lost in Translation",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTI2NDI5ODk4N15BMl5BanBnXkFtZTYwMTI3NTE3._V1_SX300.jpg",
+        "imdbId": "tt0335266",
+        "category": "comedy"
+    },
+    {
+        "id": 72,
+        "title": "Broadcast News",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BN2E1ZmU5NDQtNjdlZC00Y2VhLTk2MWMtMmU0M2YyY2E3MTkyXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SX300.jpg",
+        "imdbId": "tt0092699",
+        "category": "comedy"
+    },
+    {
+        "id": 73,
+        "title": "Bringing Up Baby",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMmVkOTRiYmItZjE4NS00MWNjLWE0ZmMtYzg5YzFjMjMyY2RkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+        "imdbId": "tt0029947",
+        "category": "comedy"
+    },
+    {
+        "id": 74,
+        "title": "The Edge of Seventeen",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BODE2NjE4NjYyMV5BMl5BanBnXkFtZTgwNzk3MjQ0OTE@._V1_SX300.jpg",
+        "imdbId": "tt1878870",
+        "category": "comedy"
+    },
+    {
+        "id": 75,
+        "title": "The Band's Visit",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTY4NTUxOTc0Nl5BMl5BanBnXkFtZTcwNjY2MTU1MQ@@._V1_SX300.jpg",
+        "imdbId": "tt1032856",
+        "category": "comedy"
+    },
+    {
+        "id": 76,
+        "title": "Tangerine",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMjEzNzY2NjYwOV5BMl5BanBnXkFtZTgwOTY1MDU1NTE@._V1_SX300.jpg",
+        "imdbId": "tt3824458",
+        "category": "comedy"
+    },
+    {
+        "id": 77,
+        "title": "Le Havre",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTM1MDc2NDkxOV5BMl5BanBnXkFtZTcwNzE1NjM5Ng@@._V1_SX300.jpg",
+        "imdbId": "tt1508675",
+        "category": "comedy"
+    },
+    {
+        "id": 78,
+        "title": "Repo Man",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNzdkMzVhNTgtMjlhNC00M2JkLWI3MzktYzdkNzYxNTk1NjcwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "imdbId": "tt0087995",
+        "category": "comedy"
+    },
+    {
+        "id": 79,
+        "title": "The Truman Show",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
+        "imdbId": "tt0120382",
+        "category": "comedy"
+    },
+    {
+        "id": 80,
+        "title": "Say Anything...",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTg5OTk1NjczNl5BMl5BanBnXkFtZTgwNTE3NjkzMTE@._V1_SX300.jpg",
+        "imdbId": "tt0098258",
+        "category": "comedy"
+    },
+    {
+        "id": 81,
+        "title": "Hannah Gadsby: Nanette",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BY2I3MThmYTctZTU4YS00YWNmLTg4YzktNDY0ZGE5MmQ3Y2Q3XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "imdbId": "tt8465676",
+        "category": "comedy"
+    },
+    {
+        "id": 82,
+        "title": "Silver Linings Playbook",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_SX300.jpg",
+        "imdbId": "tt1045658",
+        "category": "comedy"
+    },
+    {
+        "id": 83,
+        "title": "Juno",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTIwMDgwODc5Nl5BMl5BanBnXkFtZTYwMjQzMDM4._V1_SX300.jpg",
+        "imdbId": "tt0467406",
+        "category": "comedy"
+    },
+    {
+        "id": 84,
+        "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTk1NzIwNTM1NV5BMl5BanBnXkFtZTcwMDA1NzkyMw@@._V1_SX300.jpg",
+        "imdbId": "tt0312004",
+        "category": "comedy"
+    },
+    {
+        "id": 85,
+        "title": "Hairspray",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNWU3MWFjMjUtZmU1ZC00NWY5LTk2OWEtNDk5ZjlmZmZlOWUwXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_SX300.jpg",
+        "imdbId": "tt0095270",
+        "category": "comedy"
+    },
+    {
+        "id": 86,
+        "title": "Guardians of the Galaxy Vol. 2",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg",
+        "imdbId": "tt3896198",
+        "category": "comedy"
+    },
+    {
+        "id": 87,
+        "title": "Blindspotting",
+        "posterURL": "https://m.media-amazon.com/images/M/MV5BNjgwYTQ4YmEtOTcwYy00NjBlLWI0ZjYtNDM0YmI1OGM0MWY0XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg",
+        "imdbId": "tt7242142",
+        "category": "comedy"
+    }
+]

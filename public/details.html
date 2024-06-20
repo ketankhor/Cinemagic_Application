@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Entertain Pro</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/event.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+		font-family: poppins;
+		box-sizing: border-box;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	#testimonials {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.testimonial-heading {
+		letter-spacing: 1px;
+		margin: 30px 0px;
+		padding: 10px 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.testimonial-heading h1 {
+		font-size: 2.2rem;
+		font-weight: 500;
+		background-color: #202020;
+		color: #ffffff;
+		padding: 10px 20px;
+	}
+
+	.testimonial-heading span {
+		font-size: 1.3rem;
+		color: #252525;
+		margin-bottom: 10px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	.testimonial-box-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.testimonial-box {
+		width: 400px;
+		box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+		background-color: #ffffff;
+		padding: 20px;
+		margin: 15px;
+		cursor: pointer;
+	}
+
+	.profile-img {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-right: 10px;
+	}
+
+	.profile-img img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.profile {
+		display: flex;
+		align-items: center;
+	}
+
+	.name-user {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.name-user strong {
+		color: #3d3d3d;
+		font-size: 1.1rem;
+		letter-spacing: 0.5px;
+	}
+
+	.name-user span {
+		color: #979797;
+		font-size: 0.8rem;
+	}
+
+	.reviews {
+		color: #f9d71c;
+	}
+
+	.box-top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.client-comment p {
+		font-size: 0.9rem;
+		color: #4b4b4b;
+	}
+
+	.testimonial-box:hover {
+		transform: translateY(-10px);
+		transition: all ease 0.3s;
+	}
+
+	@media(max-width:1060px) {
+		.testimonial-box {
+			width: 45%;
+			padding: 10px;
+		}
+	}
+
+	@media(max-width:790px) {
+		.testimonial-box {
+			width: 100%;
+		}
+
+		.testimonial-heading h1 {
+			font-size: 1.4rem;
+		}
+	}
+
+	@media(max-width:340px) {
+		.box-top {
+			flex-wrap: wrap;
+			margin-bottom: 10px;
+		}
+
+		.reviews {
+			margin-top: 10px;
+		}
+	}
+
+	::selection {
+		color: #ffffff;
+		background-color: #252525;
+	}
+	.details{
+		display: flex;
+	}
+</style>
+
+<body>
+
+	<section id="header">
+		<div id="signup-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" id="signup" aria-label="Close"></button>
+					</div>
+
+					<div class="modal-body">
+
+						<form class="ps-3 pe-3">
+
+							<div class="mb-3">
+								<label for="emailaddress" class="form-label">Email address</label>
+								<input class="form-control" type="email" id="emailaddress" required="true"
+									placeholder="Enter your email">
+							</div>
+
+							<div class="mb-3">
+								<label for="password" class="form-label">Password</label>
+								<input class="form-control" type="password" required="true" id="password"
+									placeholder="Enter your password" min="8">
+							</div>
+							<button type="button" class="btn btn-link" id="verifyBtn" style="display: none;">verify email</button>
+							<div class="mb-3 text-center">
+								<h6><button type="submit" class="button_1 d-block">LOG IN</button></h6>
+							</div>
+
+						</form>
+
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div>
+		<nav class="navbar navbar-expand-md navbar-light" id="navbar_sticky">
+			<div class="container-fluid">
+				<a class="navbar-brand fs-4 p-0 fw-bold text-white text-uppercase" href="index.html"><i
+						class="fa fa-video-camera me-1 col_light fs-1 align-middle"></i> Entertain Pro</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-0">
+
+						<li class="nav-item">
+							<a class="nav-link"  href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/details.html">Details</a>
+						</li>
+
+
+						<li class="nav-item">
+							<a class="nav-link " href="/register.html">Register</a>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav mb-0 ms-auto">
+
+
+						<li class="nav-item ms-3">
+							<a class="nav-link button" data-bs-toggle="modal" data-bs-target="#signup-modal"
+								href="#">SIGN UP</a>
+						</li>
+						<li class="nav-item ms-3">
+							<button class="nav-link button" onclick="logout(this)">logout</button>
+						</li>
+						<!-- /.modal -->
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<div class="row event1 mt-4" style="padding: 5px;">
+		<div class="col-md-5 pe-0">
+			<div class="event1l">
+				<div class="grid clearfix">
+					<figure class="effect-jazz mb-0">
+						<a href="#"><img src="" id="img" height="428" class="w-100" alt="abc"></a>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-7 ps-10" id="details">
+			<!-- <div class="event1r bg-white p-4 shadow_box">
+				<h5 class="text-uppercase"><a href="#">Music Event in India</a></h5>
+				<h6>Delhi &amp; Mumbai
+					<span class="col_red pull-right">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</span>
+				</h6>
+				<hr>
+				<h6>June 09 - July 06 <span class="pull-right">09:00-13:00 pm</span></h6>
+				<p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiud tempor
+					incididunt ut labore et dolore magna aliqua. Ut enim ad quis nostrud exercitation ullamco
+					laboris nisi ut aliquip ex ea commodo is aute irure dolor in reprehenderit in voluptate
+					velit esse cillum fugiat nulla pariatur Excepteur sint. Read More</p>
+
+			</div> -->
+		</div>
+	</div>
+	</div>
+	</section>
+
+
+
+	<h3 style="text-align: center;">Reviews</h3>
+	<section id="review" style="display: flex; flex-wrap: wrap;">
+		<!-- <div class="testimonial-box">
+			top-----------------------
+			<div class="box-top">
+				profile---
+				<div class="profile">
+
+					name-and-username
+					<div class="name-user">
+						<strong>Harry Potter</strong>
+						<span>@DanielRedclief</span>
+					</div>
+				</div>
+				reviews----
+				<div class="reviews">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>Empty star
+				</div>
+			</div>
+			Comments--------------------------------------
+			<div class="client-comment">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident
+					temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur
+					voluptates incidunt blanditiis sed atque cumque.</p>
+			</div>
+		</div>
+
+		<div class="testimonial-box">
+			top-----------------------
+			<div class="box-top">
+				profile---
+				<div class="profile">
+
+					name-and-username
+					<div class="name-user">
+						<strong>Harry Potter</strong>
+						<span>@DanielRedclief</span>
+					</div>
+				</div>
+				reviews----
+				<div class="reviews">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>Empty star
+				</div>
+			</div>
+			Comments--------------------------------------
+			<div class="client-comment">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident
+					temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur
+					voluptates incidunt blanditiis sed atque cumque.</p>
+			</div>
+		</div>
+		<div class="testimonial-box">
+			top-----------------------
+			<div class="box-top">
+				profile---
+				<div class="profile">
+
+					name-and-username
+					<div class="name-user">
+						<strong>Harry Potter</strong>
+						<span>@DanielRedclief</span>
+					</div>
+				</div>
+
+			</div>
+			Comments--------------------------------------
+			<div class="client-comment">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident
+					temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur
+					voluptates incidunt blanditiis sed atque cumque.</p>
+			</div>
+		</div>
+		<div class="testimonial-box">
+			top-----------------------
+			<div class="box-top">
+				profile---
+				<div class="profile">
+
+					name-and-username
+					<div class="name-user">
+						<strong>Harry Potter</strong>
+						<span>@DanielRedclief</span>
+					</div>
+				</div>
+				reviews----
+				<div class="reviews">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>Empty star
+				</div>
+			</div>
+			Comments--------------------------------------
+			<div class="client-comment">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident
+					temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur
+					voluptates incidunt blanditiis sed atque cumque.</p>
+			</div>
+		</div> -->
+	</section> 
+
+
+
+	<section id="subs" class="pt-5 pb-5 bg_red">
+		<div class="container-xl">
+			<div class="row subs_1">
+				<div class="col-md-4">
+					<div class="subs_1l">
+						<h4 class="text-white mb-0 mt-2">ADD YOUR REVIEW HERE!</h4>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="subs_1r">
+						<form class="input-group" id="reviewCon">
+							<textarea type="text" class="form-control bg-transparent"
+								placeholder="Enter Your review here..." required minlength="1" ></textarea>
+							<span class="input-group-btn">
+								<button class="btn btn-primary bg-white col_red" type="submit">
+									Submit </button>
+							</span>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer" class="p_3">
+		<div class="container-xl">
+			<div class="row footer_1">
+				<div class="col-md-2">
+					<div class="footer_1i">
+						<h6 class="text-white fw-bold">LANGUAGE MOVIES</h6>
+						<hr class="line mb-4">
+						<div class="row footer_1i_small">
+							<h6 class="col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">English Movie</a></h6>
+							<h6 class="mt-2 col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">Hindi Movie</a></h6>
+							<h6 class="mb-0 mt-2 col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#"> Action Movie</a></h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="footer_1i">
+						<h6 class="text-white fw-bold">TAG CLOUD</h6>
+						<hr class="line mb-4">
+						<ul class="mb-0">
+							<li class="d-inline-block"><a class="d-block" href="#">Audio</a></li>
+							<li class="d-inline-block"><a class="d-block" href="#">Design</a></li>
+							<li class="d-inline-block"><a class="d-block" href="#">News</a></li>
+							<li class="d-inline-block"><a class="d-block" href="#">Share</a></li>
+							<li class="d-inline-block"><a class="d-block" href="#">Video</a></li>
+							<li class="d-inline-block"><a class="d-block" href="#">Youtube</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer_1i">
+						<h6 class="text-white fw-bold">BY PRESENTER</h6>
+						<hr class="line mb-4">
+						<div class="row footer_1i_small">
+							<h6 class="col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">Action Movie</a></h6>
+							<h6 class="mt-2 col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">Romantic Movie</a></h6>
+							<h6 class="mt-2 col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">Other Movie</a></h6>
+							<h6 class="mt-2 col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">Comedy Movie</a></h6>
+							<h6 class="mt-2 col-md-12 col-6"><i class="fa fa-circle me-1 col_red font_10"></i> <a
+									class="text-muted" href="#">Drama Movie</a></h6>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		var navbar_sticky = document.getElementById("navbar_sticky");
+		var sticky = navbar_sticky.offsetTop;
+		var navbar_height = document.querySelector('.navbar').offsetHeight;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky + navbar_height) {
+				navbar_sticky.classList.add("sticky")
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+				navbar_sticky.classList.remove("sticky");
+				document.body.style.paddingTop = '0'
+			}
+		}
+	</script>
+	<script src="js/navbar.js"></script>
+	<script src="js/details.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Entertain Pro</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+	<section id="header">
+		<div id="signup-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					
+					<div class="modal-body">
+
+						<form class="ps-3 pe-3" >
+
+							<div class="mb-3">
+								<label for="emailaddress" class="form-label">Email address</label>
+								<input class="form-control" type="email" id="emailaddress" required="true"
+									placeholder="Enter your email">
+							</div>
+
+							<div class="mb-3">
+								<label for="password" class="form-label">Password</label>
+								<input class="form-control" type="password" required="true" id="password"
+									placeholder="Enter your password" min="8">
+							</div>
+							<button type="button" class="btn btn-link" id="verifyBtn" style="display: none;">verify email</button>
+							<div class="mb-3 text-center">
+								<h6><button type="submit" class="button_1 d-block">LOG IN</button></h6>
+							</div>
+
+						</form>
+
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div>
+		<nav class="navbar navbar-expand-md navbar-light" id="navbar_sticky">
+			<div class="container-fluid">
+				<a class="navbar-brand fs-4 p-0 fw-bold text-white text-uppercase" href="index.html"><i
+						class="fa fa-video-camera me-1 col_light fs-1 align-middle"></i> Entertain Pro</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-0">
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/details.html">Details</a>
+						</li>
+
+
+						<li class="nav-item">
+							<a class="nav-link active" href="/register.html">Register</a>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav mb-0 ms-auto">
+
+
+						<li class="nav-item ms-3">
+							<a class="nav-link button" data-bs-toggle="modal" data-bs-target="#signup-modal"
+								href="#">SIGN UP</a>
+						</li>
+						<li class="nav-item ms-3">
+							<button class="nav-link button" onclick="logout(this)">logout</button>
+						</li>
+						<!-- /.modal -->
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</section>
+
+	<section id="center" class="center_o pt-5">
+		<div class="container">
+			<div class="row center_o1 text-center">
+				<div class="col-md-12">
+					<h2>Register here</h2>
+					<!-- <h5 class="bg_dark d-inline-block p-4 mb-0 mt-4 pt-2 pb-2 fw-normal col_red"><a class="text-white" href="#">Home</a>  <span class="me-2 ms-2 text-muted"> /</span>   Contact Us</h5> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="p_3 bg-light">
+		<div class="container ">
+			<div class="row contact1">
+				<div class="col-md-9">
+					<div class="contact1l">
+						<h3>CONTACT US</h3>
+						<hr class="line">
+						<form id="registerForm">
+							<div class="blog1ld3 row mt-4">
+								<div class="col-md-6">
+									<div class="blog1ld3l">
+										<input id="n_username" class="form-control" placeholder="User Name" type="text" required>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="blog1ld3l">
+										<input id="n_name" class="form-control" placeholder="Name" type="text" required>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="blog1ld3 row mt-4">
+								<div class="col-md-6">
+									<div class="blog1ld3l">
+										<input id="n_email" class="form-control" placeholder="Email" type="email" required>
+									</div>
+								</div>
+
+								<div class="col-md-6">
+									<div class="blog1ld3l">
+										<input id="n_password" class="form-control" placeholder="Password" type="password" required>
+									</div>
+								</div>
+							</div>
+							
+							<button type="button" class="btn btn-link" id="verifyBtn2" style="display: none;">verify email</button>
+							
+							<div class="blog1ld3 row">
+								<div class="col-md-12">
+									<div class="blog1ld3l">
+										<h6 class="mb-0 mt-3"><button class="button_1" type="submit">Submit </button></h6>
+									</div>
+								</div>
+							</div>
+						</form>
+					
+						
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</section>
+
+	
+	<script src="js/navbar.js"></script>
+	<script>
+		window.onscroll = function () { myFunction() };
+
+		var navbar_sticky = document.getElementById("navbar_sticky");
+		var sticky = navbar_sticky.offsetTop;
+		var navbar_height = document.querySelector('.navbar').offsetHeight;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky + navbar_height) {
+				navbar_sticky.classList.add("sticky")
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+				navbar_sticky.classList.remove("sticky");
+				document.body.style.paddingTop = '0'
+			}
+		}
+		function verify(user){
+			console.log(user)
+			let verifyBtn=document.querySelector('#verifyBtn2');
+			console.log(verifyBtn)
+				verifyBtn.style.display='block'
+				verifyBtn.addEventListener('click',async e=>{
+					await sendMail(user);
+					verifyBtn.textContent='verification link is send to registered email'
+					verifyBtn.disabled=true;
+				})
+		}
+		document.addEventListener('DOMContentLoaded',()=>{
+
+			const form = document.querySelector('#registerForm');
+			form.addEventListener('submit',async e=>{
+				e.preventDefault();
+				const {status,user}=await register();
+				console.log(status)
+				if(status==="success"){
+					console.log(status)
+					verify(user);
+					 
+				}
+
+			})
+		})
+		 
+		async function sendMail(user){
+			console.log(user)
+			const res = await fetch('http://127.0.0.1:3000/api/user/verify',{
+				method:'POST',
+				body:JSON.stringify(user),
+				headers:{
+					'content-type':'application/json'
+				}
+			})
+			const data=await res.json();
+			alert(data.message)
+		}
+		async function register(){
+			const userName=document.querySelector('#n_username').value;
+			const name=document.querySelector('#n_name').value;
+			const email=document.querySelector('#n_email').value;
+			const password=document.querySelector('#n_password').value;
+			const body=JSON.stringify({
+				userName,
+				name,
+				email,
+				password
+			});
+			
+			const res=await fetch('http://127.0.0.1:3000/api/user/register',{
+				method:'POST',
+				body,
+				headers:{
+					'content-type':'application/json'
+				},
+				credentials:"same-origin"
+			});
+			const data=await res.json();
+			console.log(data)
+			alert(data.message)
+			return data
+		}
+		
+	</script>
+
+</body>
+
+</html>
